@@ -125,7 +125,8 @@ RUN curl -fsSL "http://downloads.ioncube.com/loader_downloads/ioncube_loaders_li
 COPY docker/cron/crontab /etc/cron.d/whmcs-cron
 
 # Set permissions for cron file
-RUN chmod +x /etc/cron.d/whmcs-cron
+RUN chmod 0644 /etc/cron.d/whmcs-cron
+RUN #chmod +x /etc/cron.d/whmcs-cron
 
 # Apply cron job
 RUN crontab /etc/cron.d/whmcs-cron
