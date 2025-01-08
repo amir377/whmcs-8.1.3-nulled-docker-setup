@@ -10,3 +10,4 @@ configuration.php
 install-example/log/installer.log
 /install
 /templates_c
+configuration.php.new
