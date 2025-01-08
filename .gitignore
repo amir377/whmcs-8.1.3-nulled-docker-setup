@@ -8,5 +8,5 @@ docker/nginx/nginx.conf
 .htaccess
 configuration.php
 install-example/log/installer.log
-/install-example
-/templates_c-example
+/install
+/templates_c
