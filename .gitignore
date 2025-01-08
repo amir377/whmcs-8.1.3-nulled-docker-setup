@@ -5,6 +5,7 @@
 .env
 docker-compose.yaml
 docker/nginx/nginx.conf
+docker/cron/crontab
 .htaccess
 configuration.php
 install-example/log/installer.log
