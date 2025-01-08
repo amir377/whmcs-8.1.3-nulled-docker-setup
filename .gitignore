@@ -7,6 +7,6 @@ docker-compose.yaml
 docker/nginx/nginx.conf
 .htaccess
 configuration.php
-install/log/installer.log
-/install
-/templates_c
+install-example/log/installer.log
+/install-example
+/templates_c-example
